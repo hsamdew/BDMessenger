@@ -1,8 +1,8 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-    bot_token = "Token" --Put You Token Here
+    bot_token = "332873707:AAFwGSzb9Xr5XzMuJGpvU7cEunDEXngOKpc" --Put You Token Here
    send_api = "https://api.telegram.org/bot"..bot_token
-sudo_id = 157059515
+sudo_id = 314202351
 require('./bot/methods')
 http = require('socket.http')
 https = require('ssl.https')
@@ -130,7 +130,7 @@ function create_config( )
     enabled_plugins = {
     "core"
     },
-    sudo_users = {157059515},--Sudo users
+    sudo_users = {314202351},--Sudo users
     info_text = [[*》Beyond Messenger V1.0*
 `》An messenger bot based on plugin`
 
